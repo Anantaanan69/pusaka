@@ -390,13 +390,13 @@ body {
         padding-bottom: 0px;
     }
     .kata h6 {
-        font-size: 0.4rem; /* Sesuaikan ukuran font lebih kecil */
+        font-size: 0.2rem; /* Sesuaikan ukuran font lebih kecil */
         color: #4a7dd5;
         font-style: oblique;
     }
 
     .kata h3 {
-        font-size: 0.6rem; /* Ukuran font lebih kecil */
+        font-size: 0.4rem; /* Ukuran font lebih kecil */
         color: #ffffff;
         font-style: oblique;
     }
