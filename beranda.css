@@ -141,7 +141,7 @@ body {
     width: 100%;
     padding: 20px;
     background-image: url('pemisah.png');
-    background-size: cover; /* Atau gunakan contain jika ingin gambar sepenuhnya terlihat */
+    background-size: 100%; /* Atau gunakan contain jika ingin gambar sepenuhnya terlihat */
     background-position: center; /* Pusatkan gambar jika menggunakan cover */
     background-repeat: no-repeat; /* Jangan ulangi gambar latar belakang */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -430,13 +430,13 @@ body {
     }
 
     .kata h6 {
-        font-size: 0.4rem; /* Sesuaikan ukuran font lebih kecil */
+        font-size: 0.2rem; /* Sesuaikan ukuran font lebih kecil */
         color: #4a7dd5;
         font-style: oblique;
     }
 
     .kata h3 {
-        font-size: 0.6rem; /* Ukuran font lebih kecil */
+        font-size: 0.4rem; /* Ukuran font lebih kecil */
         color: #ffffff;
         font-style: oblique;
     }
