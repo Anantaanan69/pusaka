@@ -138,9 +138,9 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 20px;
+    padding-top: 50px;
     background-image: url('pemisah2.png');
-    background-size: cover; /* Atau gunakan contain jika ingin gambar sepenuhnya terlihat */
+    background-size: 100%; /* Atau gunakan contain jika ingin gambar sepenuhnya terlihat */
     background-position: center; /* Pusatkan gambar jika menggunakan cover */
     background-repeat: no-repeat; /* Jangan ulangi gambar latar belakang */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -151,6 +151,7 @@ body {
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .kata h6 {
@@ -368,8 +369,8 @@ body {
 
     .pemisah-container {
         flex-direction: column; /* Ubah tata letak menjadi kolom */
-        padding: 20px; /* Kurangi padding agar lebih cocok di layar kecil */
-        background-size: cover; /* Pastikan gambar background menyesuaikan ukuran kontainer */
+        padding-top: 0px; /* Kurangi padding agar lebih cocok di layar kecil */
+        background-size: 100%; /* Pastikan gambar background menyesuaikan ukuran kontainer */
         text-align: left; /* Pusatkan teks pada layar kecil */
     }
 
@@ -377,8 +378,8 @@ body {
         width: 100%; /* Masing-masing div mengambil lebar penuh */
         padding-left: 20px;
         padding-right: 250px;
-        padding-top: 30px;
-        padding-bottom: 0px;
+        padding-top: 40px;
+        padding-bottom: 20px;
     }
 
     .kosong {
