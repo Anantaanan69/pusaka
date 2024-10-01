@@ -230,7 +230,7 @@ body {
     justify-content: center;
     align-items: flex-start; /* Menyelaraskan item di awal baris */
     gap: 20px; /* Jarak antar card */
-    
+    margin: 20px 0;
     padding: 0 100px; /* Padding horizontal untuk mencegah card menempel ke tepi layar */ 
 }
 
