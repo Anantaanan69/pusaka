@@ -84,9 +84,11 @@ body {
     padding-bottom: 360px;
     padding-left: 100px;
     background-image: url('bg_beranda.png');
-    background-size: 100%;
+    background-size: 100%; /* atau gunakan 'contain' jika ingin gambar pas sepenuhnya */
     background-position: top;
+    background-repeat: no-repeat; /* untuk mencegah pengulangan gambar */
 }
+
 
 .card2 {
     display: flex;
