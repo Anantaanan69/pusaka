@@ -370,7 +370,7 @@ body {
         padding: 20px; /* Kurangi padding agar sesuai di layar kecil */
     }
 
-    .card-image-container1, .card-video-container2 {
+    .card-image-container1 {
         width: 100%; /* Gambar mengambil 100% lebar */
         height: auto; /* Sesuaikan tinggi secara otomatis */
         margin: 0 0 20px 0; /* Tambahkan margin bawah untuk jarak dengan konten */
@@ -379,11 +379,26 @@ body {
         align-items: center;
     }
 
-    .card-content1, .card-content2 {
+    .card-video-container2 {
+        width: 100%; /* Gambar mengambil 100% lebar */
+        height: auto; /* Sesuaikan tinggi secara otomatis */
+        margin: 0 0 20px 20px; /* Tambahkan margin bawah untuk jarak dengan konten */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-content1 {
         width: 100%; /* Konten juga mengambil 100% lebar */
         text-align: left; /* Pusatkan teks untuk layar kecil */
         margin-left: 20px;
     }
+
+    .card-content2 {
+        width: 100%; /* Konten juga mengambil 100% lebar */
+        text-align: left; /* Pusatkan teks untuk layar kecil */
+    }
+    
 
     .card-content1 h1, .card-content2 h1 {
         font-size: 0.8rem; /* Sesuaikan ukuran font agar tidak terlalu besar */
