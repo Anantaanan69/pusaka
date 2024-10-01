@@ -7,10 +7,7 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
-    padding-top: 80px; /* Memberikan padding untuk menghindari konten tertutup header */
-    background-image: url('bg_kepegawaian.png');
-    background-size: 100%;
-    background-position: top;
+    padding-top: 78px; /* Memberikan padding untuk menghindari konten tertutup header */
 }
 
 .header {
@@ -84,8 +81,11 @@ body {
 .card1 {
     color: #ffffff;
     padding-top: 250px;
-    padding-bottom: 350px;
+    padding-bottom: 420px;
     padding-left: 100px;
+    background-image: url('bg_kepegawaian.png');
+    background-size: 100%;
+    background-position: top;
 }
 
 .card2 {
@@ -264,6 +264,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        padding-top: 45px; /* Memberikan padding untuk menghindari konten tertutup header */
+    }
     .header {
         padding: 10px 0;
         position: fixed; /* Membuat header tetap di tempat */
@@ -325,7 +328,7 @@ body {
 
     .card1 {
         padding-top: 0px;
-        padding-bottom: 160px;
+        padding-bottom: 230px;
         padding-left: 20px;
     }
 
