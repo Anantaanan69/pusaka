@@ -137,11 +137,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center; 
-     
-    
+    align-items: center; 
+    min-height: 15vh;
     padding-top: 30px;
     background-color: #ffffff;
-    
+    position: relative;
 }
 
 .employe h1 {
