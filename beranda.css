@@ -417,7 +417,7 @@ body {
     .pemisah-container {
         flex-direction: column; /* Ubah tata letak menjadi kolom */
         padding: 20px; /* Kurangi padding agar lebih cocok di layar kecil */
-        background-size: cover; /* Pastikan gambar background menyesuaikan ukuran kontainer */
+        background-size: 100%; /* Pastikan gambar background menyesuaikan ukuran kontainer */
         text-align: left; /* Pusatkan teks pada layar kecil */
     }
 
