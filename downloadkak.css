@@ -170,15 +170,16 @@ body {
 }
 
 .pemisah-container {
-    display: flex; /* Mengatur tata letak fleksibel secara horizontal */
-    justify-content: space-between; /* Memberikan ruang di antara dua div */
-    align-items: center; /* Menyelaraskan konten secara vertikal */
-    width: 100%; /* Memastikan kontainer utama mengambil lebar penuh */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     padding: 20px;
-    margin-top: 50px;
     background-image: url('pemisah.png');
-    background-size: 100%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-size: 100%; /* Atau gunakan contain jika ingin gambar sepenuhnya terlihat */
+    background-position: center; /* Pusatkan gambar jika menggunakan cover */
+    background-repeat: no-repeat; /* Jangan ulangi gambar latar belakang */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .kata, .kosong {
