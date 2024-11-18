@@ -371,7 +371,7 @@ body {
     .pemisah-container {
         flex-direction: column; /* Ubah tata letak menjadi kolom */
         padding: 20px; /* Kurangi padding agar lebih cocok di layar kecil */
-        background-size: cover; /* Pastikan gambar background menyesuaikan ukuran kontainer */
+        background-size: 100%; /* Pastikan gambar background menyesuaikan ukuran kontainer */
         text-align: left; /* Pusatkan teks pada layar kecil */
     }
 
@@ -384,13 +384,13 @@ body {
     }
 
     .kata h6 {
-        font-size: 0.4rem; /* Sesuaikan ukuran font lebih kecil */
+        font-size: 0.2rem; /* Sesuaikan ukuran font lebih kecil */
         color: #4a7dd5;
         font-style: oblique;
     }
 
     .kata h3 {
-        font-size: 0.6rem; /* Ukuran font lebih kecil */
+        font-size: 0.4rem; /* Ukuran font lebih kecil */
         color: #ffffff;
         font-style: oblique;
     }
